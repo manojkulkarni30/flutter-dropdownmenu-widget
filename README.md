@@ -1,17 +1,38 @@
 # flutter_dropdownlist_demo
 
-A new Flutter project.
+A small Flutter demo showing how to add a dropdown list using Material 3's dropdown widgets.
+
+## Video Tutorial
+
+- Tutorial video: https://bit.ly/3PcnV1E
+- Channel: https://bit.ly/41Ryons
+
+## Overview
+
+This repository demonstrates how to implement dropdowns in Flutter using Material 3's `DropdownMenu` widget
+
+## Documentation
+
+- `DropdownMenu` — https://api.flutter.dev/flutter/material/DropdownMenu-class.html
+- `DropdownButton` — https://api.flutter.dev/flutter/material/DropdownButton-class.html
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. Install Flutter: https://docs.flutter.dev/get-started/install
+2. From the project root run:
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+flutter pub get
+flutter run
+```
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Notes
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- The demo targets Material 3. To enable Material 3, set `useMaterial3: true` in your app theme:
+
+```dart
+MaterialApp(
+  theme: ThemeData(useMaterial3: true),
+  home: const MyHomePage(),
+);
+```
